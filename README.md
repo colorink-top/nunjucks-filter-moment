@@ -5,9 +5,11 @@ This defines a dateFormat filter for [Nunjucks](https://mozilla.github.io/nunjuc
 Use 
 
 // with no format
+
 This blog has been created at {{ creation_date | dateFormat }}.
 
 // with a custom format
+
 This blog has been created at {{ creation_date | dateFormat("YYYY-MM-DD hh:mm:ss") }}.
 
 // with a custom format and timezone
